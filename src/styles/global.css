@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-forest-green: #2d5f3f;
+  --color-forest-green-dark: #1e4029;
+  --color-gold: #c5a572;
+  --color-gold-dark: #a68856;
+  --color-cream: #f5f5dc;
+  --color-cream-dark: #e8e8d0;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply text-gray-900 bg-white;
+  }
+}
