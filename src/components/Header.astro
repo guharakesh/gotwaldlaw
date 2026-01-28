@@ -3,45 +3,51 @@
 ---
 
 <header class="bg-[var(--color-forest-green)] text-white sticky top-0 z-50 shadow-md">
-  <nav class="container mx-auto px-4 py-4 flex items-center justify-between">
-    <a href="/" class="text-2xl font-bold font-serif tracking-tight">
-      GOTWALD LAW
-    </a>
-
-    <!-- Desktop Navigation -->
-    <div class="hidden md:flex items-center gap-8">
-      <a href="#home" class="hover:text-[var(--color-gold)] transition-colors">Home</a>
-      <a href="#practice-areas" class="hover:text-[var(--color-gold)] transition-colors">Practice Areas</a>
-      <a href="#about" class="hover:text-[var(--color-gold)] transition-colors">About</a>
-      <a href="#contact" class="hover:text-[var(--color-gold)] transition-colors">Contact</a>
-      <a
-        href="tel:937-303-7039"
-        class="bg-[var(--color-gold)] text-white px-4 py-2 rounded-md hover:bg-[var(--color-gold-dark)] transition-colors font-medium"
-      >
-        937-303-7039
+  <nav class="container mx-auto flex items-center justify-between">
+    <!-- Left: Logo without padding -->
+    <div class="flex items-center">
+      <a href="/" class="flex items-center">
+        <img src="/pngs/Logo_Horiz White.png" alt="Gotwald Law" class="h-12" />
       </a>
     </div>
 
-    <!-- Mobile Menu Button -->
-    <button
-      id="mobile-menu-button"
-      class="md:hidden focus:outline-none"
-      aria-label="Toggle menu"
-    >
-      <svg
-        class="w-6 h-6"
-        fill="none"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
+    <!-- Right: Navigation with padding -->
+    <div class="flex items-center px-4 py-4">
+      <!-- Desktop Navigation -->
+      <div class="hidden lg:flex items-center gap-8">
+        <a href="#home" class="hover:text-[var(--color-gold)] transition-colors">Home</a>
+        <a href="#practice-areas" class="hover:text-[var(--color-gold)] transition-colors">Practice Areas</a>
+        <a href="#about" class="hover:text-[var(--color-gold)] transition-colors">About</a>
+        <a href="#contact" class="hover:text-[var(--color-gold)] transition-colors">Contact</a>
+        <a
+          href="tel:937-303-7039"
+          class="bg-[var(--color-gold)] text-white px-4 py-2 rounded-md hover:bg-[var(--color-gold-dark)] transition-colors font-medium whitespace-nowrap"
+        >
+          937-303-7039
+        </a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button
+        id="mobile-menu-button"
+        class="lg:hidden focus:outline-none"
+        aria-label="Toggle menu"
       >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M4 6h16M4 12h16M4 18h16"
-        ></path>
-      </svg>
-    </button>
+        <svg
+          class="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"
+          ></path>
+        </svg>
+      </button>
+    </div>
   </nav>
 
   <!-- Mobile Navigation -->
